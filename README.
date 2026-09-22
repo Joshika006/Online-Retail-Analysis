@@ -1,0 +1,164 @@
+# Online Retail Analysis
+
+## Project Overview
+
+This project analyzes an Online Retail dataset using Python and Data Science techniques. The main objective is to clean the retail data, perform data analysis, visualize sales patterns, and identify useful business insights.
+
+## Dataset
+
+The dataset contains online retail transaction records with information such as:
+
+* Invoice Number
+* Stock Code
+* Product Description
+* Quantity
+* Invoice Date
+* Unit Price
+* Customer ID
+* Country
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* VS Code
+* Git & GitHub
+
+## Project Tasks
+
+### 1. Data Import & Setup
+
+* Imported the Online Retail dataset using Pandas.
+* Explored the first and last records.
+* Checked dataset shape and columns.
+* Converted `InvoiceDate` into datetime format.
+
+### 2. Data Cleaning
+
+* Handled missing `CustomerID` values.
+* Removed duplicate records.
+* Removed invalid quantity values.
+* Removed invalid unit price values.
+
+### 3. Feature Engineering
+
+Created new features including:
+
+* `TotalPrice`
+* `Year`
+* `Month`
+* `Day`
+* `Hour`
+* `Customer Segment`
+* `Order Size`
+* `Day Type`
+
+### 4. Data Exploration
+
+Analyzed:
+
+* Country-wise transactions
+* Product-wise sales
+* Monthly sales
+* Unique products
+* Unique countries
+* Dataset statistics
+
+### 5. Data Wrangling
+
+Performed:
+
+* Customer-wise sales aggregation
+* Country-wise sales aggregation
+* Product-wise sales aggregation
+* Monthly sales aggregation
+* Customer order analysis
+
+### 6. Statistical Analysis
+
+Calculated:
+
+* Mean
+* Median
+* Mode
+* Standard deviation
+* Variance
+* Percentiles
+
+for important numerical columns such as Quantity, UnitPrice, and TotalPrice.
+
+### 7. Data Visualization
+
+Created visualizations using Matplotlib and Seaborn:
+
+* Monthly Sales Line Chart
+* Top Countries Bar Chart
+* Total Price Histogram
+* Unit Price Box Plot
+* Order Size Count Plot
+* Total Price Violin Plot
+* Correlation Heatmap
+* Pair Plot
+
+### 8. Business Insights
+
+The analysis identified several useful insights:
+
+* **United Kingdom** generated the highest sales.
+* **November** recorded the highest monthly sales.
+* High-value customers were identified based on total purchase value.
+* Top-performing products were identified based on total sales.
+* Customer purchasing behavior was analyzed using order size and sales value.
+
+## Project Structure
+
+```text
+Online-Retail-Analysis/
+│
+├── data/
+│   └── Online Retail.xlsx
+│
+├── notebooks/
+│   └── Online Retail Analysis.ipynb
+│
+├── README.md
+│
+└── requirements.txt
+```
+
+## How to Run the Project
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Open the notebook from the `notebooks` folder.
+5. Run the cells in order.
+
+## GitHub & Version Control
+
+Git was used for version control.
+
+Commands used:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repo_link>
+git push -u origin main
+```
+
+Additional commits can be made whenever changes are added to the project.
+
+## Conclusion
+
+This project demonstrates the use of Python and Data Science techniques for analyzing retail transaction data. The analysis helps understand sales trends, customer behavior, product performance, and important business patterns.
